@@ -1,0 +1,10 @@
+# File Handler
+mail_log = "path/to/fetched/mail.log" # File where the last fetched mail is temporary stored
+latest_mail = "path/to/latest/ta.log" # File where the latest TA known is stored (keep it as a backup)
+mail_epitech = "nom.prenom@epitech.eu" # Your Epitech login
+password = "" # Your Epitech password
+
+# WirePusher configuration
+wirepusher_token = "XXXXXXXXX" # The Wirepusher Application Token
+alert_type = "Marvin" # The name of the alert to be used to notify (you can set it up in the application)
+action = "https://my.epitech.eu/index.html" # The URL to be redirected when when clicking on the notification (leave empty for no redirection)
